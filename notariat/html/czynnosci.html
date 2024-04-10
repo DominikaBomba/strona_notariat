@@ -1,0 +1,152 @@
+<!doctype html>
+<html> 
+    <head> 
+        <title> Lidia Mikołajewska-Bomba - Notariusz Swarzędz</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Kancelaria Notarialna - Notariusz Swarzędz, ul. Tysiąclecia 1/3, 62-020 Swarzędz, tel. 61 67 00 608">
+        <meta name="keywords" content="Swarzędz, Swarzedz, Notariusz, Notariat, Kancelaria, Lidia Mikołajewska Bomba, Mikołajewska, Bomba, Lidia">
+        <meta name="author" content="Dominika Bomba">
+        <link rel="canonical" href="https://notariuszswarzedz.pl/">
+        <link rel="stylesheet" type="text/css" href="../styles/czynnosci_style.css">        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../styles/style_main.css">
+    </head>
+    <body> 
+        
+        <!--menu-->
+        <nav id="menu"> 
+            <input type="checkbox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu2"> 
+                <li> <a href="index.html">Kancelaria</a></li>
+                <li> <a href="czynnosci.html">Czynności</a></li>
+                <li> <a href="kontakt.html">Kontakt</a></li>
+                <li> <a href="dojazd.html">Dojazd</a></li>
+            </ul>
+        </nav>
+        <!--header-->
+        <header> 
+            
+            <h2> Czynności </h2>
+            <a href="index.html"> STRONA GŁÓWNA </a>
+        </header>
+        
+        <!--section-->
+        <section> 
+            <div id="linki">
+                <div id="krs">
+                    
+                    <a href="https://ekrs.ms.gov.pl/web/wyszukiwarka-krs/strona-glowna/"> KRS</a>
+                    <div style="font-size: 90%"> Przekierowanie do strony </div>
+                </div>
+                <div id="krs">
+                    <a href="https://ekrs.ms.gov.pl/web/wyszukiwarka-krs/strona-glowna/"> KRS</a>
+                    <div style="font-size: 90%"> Przekierowanie do strony </div>
+                </div>
+            </div>
+            <div id="czynnosci">
+            
+               
+                <div class="parent">
+                    <img alt="column symbol" src="../images/symbol1.png"> 
+                    <p> Akty notarialne  </p>
+                    <ol class="akty_hid">
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                    </ol>
+                </div>
+                <div class="parent">
+                    <img alt="column symbol" src="../images/symbol1.png"> 
+                    <p> Akty notarialne  </p>
+                    <ol class="akty_hid">
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                    </ol>
+                </div>
+                <div class="parent">
+                    <img alt="column symbol" src="../images/symbol1.png"> 
+                    <p> Akty notarialne  </p>
+                    <ol class="akty_hid">
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                    </ol>
+                </div>
+                <div class="parent">
+                    <img alt="column symbol" src="../images/symbol1.png"> 
+                    <p> Akty notarialne  </p>
+                    <ol class="akty_hid">
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                    </ol>
+                </div>
+                
+                <div class="parent">
+                    <img alt="column symbol" src="../images/symbol1.png"> 
+                    <p> Akty notarialne  </p>
+                    <ol class="akty_hid">
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                        <li> Testamenty</li>
+                    </ol> 
+                    </div>
+            
+                </div>
+          
+            
+        </section>
+        
+        
+        <footer>
+            <div id="kol1"> 
+                <img alt="orzeł" src="../images/orzel.png">
+                <div> NOTA PRAWNA
+                    <br/>
+Treść tej strony nie stanowi reklamy, w szczególności reklamy osobistej, ani oferty w rozumieniu obowiązujących przepisów prawa. Strona ta nie jest także wyjaśnieniem czynności notarialnych w rozumieniu art. 80 § 3 ustawy Prawo o notariacie i jest zgodna z uchwałą nr VI/14/2008 Krajowej Rady Notarialnej z dnia 15 lutego 2008 roku </div>
+            </div>
+            <div id="kol2"> ul. Tysiąclecia 1/3
+                    <br/>
+                    62-020 Swarzędz
+                    <br/>
+                    tel.
+                <a href="tel:61 67 00 608"> 61 67 00 608</a>
+                    <br/>
+                    <a href="mailto:kancelaria@notariuszswarzedz.pl" class="email" title="Kontakt z nami">kancelaria@notariuszswarzedz.pl</a> </div>
+        </footer>
+        
+        <script> 
+           
+        $(document).ready(function(){
+                $("#kontakt").hide();
+                $("#godziny").hide();
+                $("document").ready(()=>{
+                    $("#kontakt").fadeIn(1000);
+                    $("#godziny").fadeIn(1100);
+                });
+                $(".akty_hid").slideUp();
+        $(".parent").hover(function(){
+            $(this).find(".akty_hid").slideDown();
+            }, 
+            function(){
+            $(this).find(".akty_hid").stop(true, true).slideUp();
+        });
+    });
+        </script>
+    </body>
+    
+
+</html>
