@@ -1,0 +1,293 @@
+
+html{
+    scroll-behavior: smooth;
+   
+}
+body{
+   
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a1525;
+    
+}
+
+@media all and (max-device-width: 1000px){
+     header{
+        font-family: "czcionka1";
+        letter-spacing: 1px;
+        text-align: center;
+        width: 100%;
+        height: 50%;
+        background-image: url(../images/kolumny.jpg);
+        background-position: center;
+        color: white;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+
+    }
+    header h2, header h3, header h4{
+        width: 100%;
+    }
+    header h2{
+        margin: 0;
+        font-size: 50px;
+    }    
+    header h3{
+        margin: 10px;
+        font-size: 40px;
+    }
+    header a{
+        color: white;
+        font-size: 50px;
+        text-decoration: none;
+    }
+/*sekcja*/
+
+    section{
+        color: #0a1525;
+        margin-top:2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        height: 80%;
+    }
+    section h3{
+         font-family: czcionka1;
+         font-family: czcionka1;
+        font-size: calc(1vh + 0.6vw);
+    }
+    #godziny{
+        
+        width:95%;
+        height: 22vh;
+        background-color: #e6e6e6;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+    #godziny td{
+        width: 70%;
+         font-family: "czcionka2";
+        font-size: calc(1.7vh);
+       
+    }
+    #kontakt{
+        font-size:  calc(1.7vh);
+        font-family: "czcionka2";
+        width: 95%;
+        height: 22vh;
+        background-color: #e6e6e6;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    #kontakt a{
+        color: black;
+    }
+   
+    #dojazd{
+        width: 100%;
+        color: #ededed;
+        height: 40%;
+        font-size:  calc(1vh + 1vw);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    #dojazd h3{
+        font-size: 30px;
+    }
+
+    .gold{
+        width: 50%;
+        height: 3px;
+        background-color: #baa881;
+        margin-bottom: 3%;
+    }
+    #dojazd iframe{
+        height: 80%;
+        width: 95%;
+    }
+    section a, footer a{
+        color: white;
+        text-decoration: none;
+    }
+/*sekcja*/
+    article{
+        width: 85%;
+        border: 2px solid #baa881;
+        padding: 2% 5% 2% 5%;
+        color: white;
+        display: flex;
+        font-family: czcionka1;
+        flex-direction: column;
+    }
+    article .gold{
+        width: 10%;
+        margin-bottom: 2%;
+    }
+    article div{
+        width: 70%;
+        font-size: calc(0.8vh + 0.6vw);
+        margin-left: 10%;
+    }
+    article h3{
+        font-size: calc(1.1vh + 1vw);
+        width: 70%;
+        margin-bottom: 2%;
+        margin-left: 10%;
+
+    }
+}
+/*nagłówek*/
+@media all and (min-device-width: 1000px){
+     header{
+        	
+        font-family: "czcionka1";
+        letter-spacing: 1px;
+        text-align: center;
+        width: 100%;
+        height: 90%;
+        background-image: url(../images/kolumny.jpg);
+        background-position: center;
+        color: white;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+
+    }
+    header h2, header h3, header h4{
+        width: 100%;
+    }
+    header h2{
+        margin: 0;
+        font-size: 50px;
+    }    
+    header h3{
+        margin: 10px;
+        font-size: 40px;
+    }
+header a{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+/*sekcja*/
+
+    section{
+        color: #0a1525;
+        margin-top:2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+    }
+section h3{
+     font-family: czcionka1;
+    font-size: calc(1vh + 0.6vw);
+}
+    #godziny{
+        
+        width: 48%;
+        height: 35%;
+        background-color: #e6e6e6;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       color: black;
+    }
+    #godziny td{
+        width: 70%;
+         font-family: "czcionka2";
+        font-size: calc(1vh + 0.5vw);
+       
+    }
+    #kontakt{
+        font-size: calc(1vh + 0.5vw);
+        font-family: "czcionka2";
+        width: 48%;
+        height: 35%;
+        background-color: #e6e6e6;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: black;
+    }
+    #kontakt div{
+        font-size: calc(1vh + 0.5vw);
+    }
+    #kontakt a{
+color: black;}
+    #dojazd{
+        width: 100%;
+        color: #ededed;
+        height: 61%;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+#dojazd h3{
+    font-size: 30px;
+}
+
+    .gold{
+        width: 50%;
+        height: 3px;
+        background-color: #baa881;
+        margin-bottom: 3%;
+    }
+    #dojazd iframe{
+        height: 80%;
+        width: 95%;
+    }
+section a, footer a{
+    color: white;
+    text-decoration: none;
+}
+/*sekcja*/
+    article{
+        width: 85%;
+        border: 2px solid #baa881;
+        padding: 2% 5% 2% 5%;
+        color: white;
+        display: flex;
+        font-family: czcionka1;
+        flex-direction: column;
+    }
+    article .gold{
+        width: 10%;
+        margin-bottom: 2%;
+    }
+    article div{
+        width: 70%;
+        
+        margin-left: 10%;
+    }
+    article h3{
+        font-size: calc(1.1vh + 0.5vw);
+        width: 70%;
+        margin-bottom: 2%;
+        margin-left: 10%;
+
+    }
+}
+   
