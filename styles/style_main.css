@@ -150,23 +150,41 @@ html{
         height: 90px;
     }
     footer div:first-of-type{
-        width: 80%;
+        width: 90%;
         font-size: 20px;
     }
     footer div:nth-of-type(2){
-        width: 80%;
+        width: 100%;
         font-size: 150%;
+        margin-top: 10%;
     }
-
+    footer div:nth-of-type(3){
+        width: 100%;
+        font-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer div:nth-of-type(3) div{
+        padding-top: 50px;
+        width: 100%;
+        font-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer div:nth-of-type(3) img{
+        height: 50px;
+    }
     footer{
         
         height: auto;
         color: white;
         padding-top: 100px;
-        padding-bottom: 100px;
+       
         display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-wrap: wrap;
+        
         width: 90%;
         border-top: 2px solid white;
         margin-top: 50px;
@@ -246,24 +264,46 @@ html{
         height: 90px;
     }
     footer div:first-of-type{
-        width: 80%;
+        width: 50%;
+        font-size: 100%;
+        
+    }
+        footer div:first-of-type div{
+        width: 100%;
         font-size: 100%;
         
     }
     footer div:nth-of-type(2){
-        width: 80%;
+        width: 50%;
         font-size: 100%;
         text-align: right;
     }
-
+    footer div:nth-of-type(3){
+        width: 100%;
+        font-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer div:nth-of-type(3) div{
+        padding-top: 50px;
+        width: 100%;
+        font-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer div:nth-of-type(3) img{
+        height: 50px;
+    }
     footer{
         
         height: auto;
         color: white;
         padding-top: 100px;
-        padding-bottom: 100px;
+        
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
         width: 90%;
         border-top: 2px solid white;
