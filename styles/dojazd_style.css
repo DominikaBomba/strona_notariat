@@ -113,25 +113,18 @@ body{
         border-bottom: 2px solid #baa881;
         padding-bottom: 3%; 
     }
-    #informacje2 >div:nth-of-type(2) b{
-        margin-left: calc(20% + 60px);
-            margin-right: 2px;
+    #informacje2>div>div{
+        width: 70%;
     }
-    #informacje2 > div:nth-of-type(3){
-       display: flex;
-        flex-wrap: wrap;
-    }
-        #informacje2 > div:nth-of-type(3) b{
-      width: 20%;;
-    }
-    #informacje2 br{
-        display: none;
+    #informacje2 p{
+        margin: 1%;
     }
     #informacje2 img{
        
         margin-right: 10%;
         margin-left: 10%;
     }
+    
     
     #informacje img, #informacje2 img{
         height: 60px;
@@ -281,6 +274,12 @@ section a, footer a{
         margin: 10px;
         height: 70%;
         font-family: czcionka2;
+    }
+    #informacje2>div>div{
+        width: 100%;
+    }
+    #informacje2 p{
+        margin: 2%;
     }
 
     
